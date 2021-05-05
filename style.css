@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    text-align: center;
+    background-color: rgb(155, 189, 196);
+  }
+  
+  h1 {
+    font-size: 40px;
+  }
+  
+  h2 {
+    font-size: 30px;
+  }
+  
+  .answers {
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: auto;
+  }
+  
+  .answer {
+    width: 50%;
+    padding: 40px 60px;
+    border: 2px solid black;
+    background-color: rgb(40, 77, 119);
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .answer:hover {
+    background-color: rgb(57, 96, 141);
+  }

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Trivia</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Trivia</h1>
+
+    <select name="categories" id="categories">
+      <option value="15">Video Games</option>
+      <option value="18">Science: Computers</option>
+      <option value="21">Sports</option>
+      <option value="27">Animals</option>
+      <option value="22">Geography</option>
+    </select>
+
+    <button>Start quiz</button>
+
+    <div id="quiz"></div>
+    <h2 id="correct"></h2>
+    <div id="correctAnswers"></div>
+
+    <script type="module" src="script.js"></script>
+    <script type="module" src="utilities.js"></script>
+    <script crossorigin type="text/javascript" src="https://codesandbox.io/static/js/watermark-button.be960f43b.js"></script>
+  </body>
+</html>
